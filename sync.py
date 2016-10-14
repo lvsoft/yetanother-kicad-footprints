@@ -89,7 +89,7 @@ def sync(pretty_repos,
 def init_argparse():
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--skip_create_new',
-                        help="skip new created repos in KiCad",
+                        help="skip import new created repos in KiCad",
                         action='store_true')
     parser.add_argument('-u', '--skip_update_avail',
                         help="don't update repos in current directory with KiCad",
