@@ -1,1 +1,1 @@
-A collection of KiCad/*.pretty with subtree
+A collection of KiCad/*.pretty by git subtree. (Working...)
