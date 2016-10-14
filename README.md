@@ -1,7 +1,14 @@
 A collection of KiCad/*.pretty by git subtree.
 
+The script `sync.py` will import all prettys projects from
+[KiCad](https://github.com/KiCad/) to current git repo with subtree.
+
 ### Usage
 
+    mkdir fresh_project
+    cd fresh_project
+    git init
+    ...copy sync.py to current directory...
     ./sync.py
 
 To show helps:
