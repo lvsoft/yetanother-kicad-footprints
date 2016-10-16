@@ -35,7 +35,7 @@ def unlink(dirname):
 def fetch_repo_lists(org):
     datas = []
     print "Fetching repo lists from KiCad organization:"
-    with closing(urllib2.urlopen("https://api.github.com/orgs/{}/repos?type=public".format(org))) as u:
+    with closing(urllib2.urlopen("https://api.github.com/orgs/{}/repos?type=public&per_page=200".format(org))) as u:
         while True:
             data = u.read(4096)
             if not data:
