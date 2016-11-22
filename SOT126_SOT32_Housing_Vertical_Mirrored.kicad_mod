@@ -29,9 +29,9 @@
   (fp_line (start -4.0005 1.39954) (end -3.59918 1.39954) (layer F.SilkS) (width 0.15))
   (fp_line (start 4.0005 -1.39954) (end 3.59918 -1.39954) (layer F.SilkS) (width 0.15))
   (fp_line (start 4.0005 1.39954) (end 3.59918 1.39954) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole circle (at 0 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at -2.29108 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at 2.29108 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at -2.29108 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 2.29108 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask))
   (model TO_SOT_Packages_THT.3dshapes/SOT126_SOT32_Housing_Vertical_Mirrored.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
