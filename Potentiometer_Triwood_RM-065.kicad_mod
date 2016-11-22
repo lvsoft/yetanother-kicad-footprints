@@ -53,9 +53,9 @@
   (fp_line (start -0.54864 1.56464) (end 0.59436 1.56464) (layer F.SilkS) (width 0.15))
   (fp_line (start 0.59436 1.56464) (end 0.59436 1.31064) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.80264 1.31064) (end 5.80136 1.31064) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole circle (at 2.49936 -5.03936) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 4.99872 0) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at 0 0) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.49936 -5.03936) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 4.99872 0) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 2.49936 2.49936) (drill 1.19888) (layers *.Cu *.Mask))
   (model Potentiometers.3dshapes/Potentiometer_Triwood_RM-065.wrl
     (at (xyz 0 0 0))
     (scale (xyz 4 4 4))
