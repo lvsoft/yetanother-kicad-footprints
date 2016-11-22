@@ -21,7 +21,7 @@
   (fp_line (start 7.45 2.565) (end 5.2 2.565) (layer F.SilkS) (width 0.15))
   (fp_line (start -7.45 -2.565) (end -5.2 -2.565) (layer F.SilkS) (width 0.15))
   (fp_line (start 7.45 -2.565) (end 5.2 -2.565) (layer F.SilkS) (width 0.15))
-  (pad "" np_thru_hole circle (at 6 -0.85) (size 1.45 1.45) (drill 1.45) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 6 -0.85) (size 1.45 1.45) (drill 1.45) (layers *.Cu *.Mask))
   (pad 34 smd rect (at 3.25 1.85) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 33 smd rect (at 3.25 -1.85) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 35 smd rect (at 3.75 -1.85) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
@@ -62,7 +62,7 @@
   (pad 3 smd rect (at -4.25 -1.85) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -4.75 -1.85) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -4.75 1.85) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad "" np_thru_hole circle (at -6 -0.85) (size 1.45 1.45) (drill 1.45) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at -6 -0.85) (size 1.45 1.45) (drill 1.45) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connectors_Samtec.3dshapes/LSHM-120-xxx-x-DV-A-N.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
