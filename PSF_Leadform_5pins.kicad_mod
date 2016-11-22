@@ -116,9 +116,9 @@
   (fp_line (start 5.10032 -6.59892) (end 5.10032 6.20014) (layer F.SilkS) (width 0.15))
   (fp_line (start 5.10032 6.20014) (end -5.10032 6.20014) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.10032 6.20014) (end -5.10032 -6.59892) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole circle (at 0 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at -1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask))
   (pad 4 smd rect (at 5.40004 -13.89888) (size 5.50164 12.0015) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -5.40004 -13.89888) (size 5.50164 12.0015) (layers F.Cu F.Paste F.Mask))
   (model PFF_PSF_PSS_Leadforms.3dshapes/PSF_Leadform_5pins.wrl
