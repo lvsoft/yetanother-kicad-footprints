@@ -13,6 +13,6 @@
   (fp_line (start -8.001 2.99974) (end 8.001 2.99974) (layer F.SilkS) (width 0.15))
   (fp_line (start 8.001 2.99974) (end 8.001 -2.99974) (layer F.SilkS) (width 0.15))
   (fp_line (start 8.001 -2.99974) (end -8.001 -2.99974) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at -9.99998 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 9.99998 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -9.99998 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 9.99998 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask))
 )
