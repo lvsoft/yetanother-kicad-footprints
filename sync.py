@@ -10,10 +10,11 @@ import shutil
 dryrun = False
 
 
-def execute(cmd):
+def execute(cmd, **env):
     if dryrun:
         print "dryrun: {}".format(cmd)
     else:
+        os.environ.update(env)
         errno = os.system(cmd)
         assert errno == 0, "execute failed with errno:{}".format(errno)
 
@@ -75,7 +76,7 @@ def sync(pretty_repos,
             format_args = {'name': repo_name, 'url': pretty_repos[repo_name]}
             print "Pull {name}...".format(**format_args)
             execute('git fetch subtree.{name}'.format(**format_args))
-            execute('git subtree pull --prefix={name} subtree.{name} master --squash'.format(**format_args))
+            execute('git subtree pull --prefix={name} subtree.{name} master --squash'.format(**format_args), GIT_EDITOR=":")
 
     if remove_deprecated_repos:
         deprecated_repos = dir_names - pretty_names
