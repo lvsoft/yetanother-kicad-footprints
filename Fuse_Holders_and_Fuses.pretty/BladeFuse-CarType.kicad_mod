@@ -15,8 +15,8 @@
   (fp_line (start 9.6 -2.5) (end 9.6 2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 9.6 2.5) (end -9.6 2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -9.6 2.5) (end -9.6 -2.5) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole oval (at -4.65 0) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole oval (at 4.65 0) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at -4.65 0) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 4.65 0) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask))
   (model Fuse_Holders_and_Fuses.3dshapes/BladeFuse-CarType.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
