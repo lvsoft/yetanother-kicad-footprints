@@ -16,8 +16,8 @@
   (fp_arc (start 2.52 0) (end 2.52 -1.25) (angle 180) (layer F.CrtYd) (width 0.05))
   (fp_arc (start 2.52 0) (end 2.52 -1) (angle 180) (layer F.SilkS) (width 0.15))
   (fp_arc (start 0.02 0) (end 0.02 1) (angle 180) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8128) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8128) (layers *.Cu *.Mask))
   (model Measurement_Points.3dshapes/Test_Point.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
