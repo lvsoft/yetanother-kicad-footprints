@@ -29,8 +29,8 @@
   (fp_line (start 49 -8.3) (end 49 8.3) (layer F.CrtYd) (width 0.05))
   (fp_line (start 49 8.3) (end -1 8.3) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1 8.3) (end -1 -8.3) (layer F.CrtYd) (width 0.05))
-  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 48 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 48 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (model Capacitors_ThroughHole.3dshapes/C_Axial_D16_L40_P48.wrl
     (at (xyz 0.944882 0 0))
     (scale (xyz 1 1 1))
