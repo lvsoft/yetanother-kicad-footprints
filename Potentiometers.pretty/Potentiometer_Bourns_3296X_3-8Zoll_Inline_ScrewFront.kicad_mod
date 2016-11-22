@@ -17,9 +17,9 @@
   (fp_line (start -2.54 -7.366) (end 2.54 -7.366) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.54 2.286) (end 0 2.286) (layer F.SilkS) (width 0.15))
   (fp_line (start 0 2.286) (end -1.27 2.286) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 0 -5.08) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 -5.08) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask))
   (model Potentiometers.3dshapes/Potentiometer_Bourns_3296X_3-8Zoll_Inline_ScrewFront.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
