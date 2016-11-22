@@ -24,8 +24,8 @@
   (fp_line (start -1.09982 1.24968) (end -1.19888 1.24968) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.19888 -1.24968) (end -1.15062 -1.24968) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.19888 1.24968) (end -1.04902 1.24968) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at -5.00126 0) (size 4.49834 2.70002) (drill 1.19888 (offset 1.09982 0)) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole rect (at 5.00126 0 180) (size 4.49834 2.70002) (drill 1.19888 (offset 1.09982 0)) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -5.00126 0) (size 4.49834 2.70002) (drill 1.19888 (offset 1.09982 0)) (layers *.Cu *.Mask))
+  (pad 2 thru_hole rect (at 5.00126 0 180) (size 4.49834 2.70002) (drill 1.19888 (offset 1.09982 0)) (layers *.Cu *.Mask))
   (model Diodes_SMD.3dshapes/MELF-RM10_Universal_Handsoldering.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
