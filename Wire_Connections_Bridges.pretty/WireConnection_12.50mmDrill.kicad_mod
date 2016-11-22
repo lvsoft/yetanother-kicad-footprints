@@ -92,6 +92,6 @@
   (fp_line (start 7.0612 -12.8778) (end 7.5438 -11.7348) (layer Cmts.User) (width 0.381))
   (fp_line (start 7.5438 -11.7348) (end 8.0264 -12.8016) (layer Cmts.User) (width 0.381))
   (fp_line (start 8.0264 -12.8016) (end 8.0264 -11.2522) (layer Cmts.User) (width 0.381))
-  (pad 1 thru_hole circle (at 0 0) (size 25 25) (drill 12.5) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 30.48 0) (size 25 25) (drill 12.5) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 25 25) (drill 12.5) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 30.48 0) (size 25 25) (drill 12.5) (layers *.Cu *.Mask))
 )
