@@ -14,6 +14,6 @@
   (fp_line (start -0.20066 -0.8001) (end 0.20066 -0.8001) (layer F.SilkS) (width 0.15))
   (pad 1 smd trapezoid (at -2.413 0) (size 3.50012 1.99898) (rect_delta 0.39878 0 ) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd trapezoid (at 2.413 0 180) (size 3.50012 1.99898) (rect_delta 0.39878 0 ) (layers F.Cu F.Paste F.Mask))
-  (pad 1 thru_hole rect (at -5.00126 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole rect (at 5.00126 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -5.00126 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask))
+  (pad 2 thru_hole rect (at 5.00126 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask))
 )
