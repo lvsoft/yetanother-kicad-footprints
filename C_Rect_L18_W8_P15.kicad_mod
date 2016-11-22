@@ -15,8 +15,8 @@
   (fp_line (start 16.5 -4) (end 16.5 4) (layer F.SilkS) (width 0.15))
   (fp_line (start 16.5 4) (end -1.5 4) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.5 4) (end -1.5 -4) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 15 0) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 15 0) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask))
   (model Capacitors_ThroughHole.3dshapes/C_Rect_L18_W8_P15.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
