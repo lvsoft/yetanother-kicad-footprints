@@ -13,8 +13,8 @@
   (fp_line (start -9.525 4.064) (end 9.525 4.064) (layer F.SilkS) (width 0.15))
   (fp_line (start 9.525 4.064) (end 9.525 -4.064) (layer F.SilkS) (width 0.15))
   (fp_line (start 9.525 -4.064) (end -9.525 -4.064) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at -12.7 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 12.7 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -12.7 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 12.7 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model Resistors_ThroughHole.3dshapes/Resistor_Ceramic_Horizontal_L19mm-W8mm-H8mm-p25mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 4 4 4))
