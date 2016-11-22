@@ -23,8 +23,8 @@
   (fp_text user + (at 35.19932 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 2.99974 2.99974) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 25.4 0) (size 2.99974 2.99974) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 2.99974 2.99974) (drill 1.50114) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 25.4 0) (size 2.99974 2.99974) (drill 1.50114) (layers *.Cu *.Mask))
   (model Buzzers_Beepers.3dshapes/MagneticBuzzer_ProjectsUnlimited_AI-4228-TWT-R.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

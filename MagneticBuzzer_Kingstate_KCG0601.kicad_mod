@@ -21,8 +21,8 @@
   (fp_line (start 1.42494 -1.00076) (end 1.12522 -0.89916) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.12522 -0.89916) (end 0.92456 -0.8001) (layer F.SilkS) (width 0.15))
   (fp_circle (center 1.524 0) (end 4.82346 0) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 3.175 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 3.175 0) (size 1.6002 1.6002) (drill 1.00076) (layers *.Cu *.Mask))
   (model Buzzers_Beepers.3dshapes/MagneticBuzzer_Kingstate_KCG0601.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
